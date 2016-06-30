@@ -35,8 +35,14 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_COPY_FILES += \
-    device/asus/Z00A/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    device/asus/Z00A/nfc/libnfc-brcm-20795a20.conf:system/etc/libnfc-brcm-20795a20.conf
+    device/asus/Z00A/nfc/ze551ml_gold_libnfc-brcm.conf:system/etc/ze551ml_gold_libnfc-brcm.conf \
+    device/asus/Z00A/nfc/ze551ml_gold_libnfc-brcm-20795a20.conf:system/etc/ze551ml_gold_libnfc-brcm-20795a20.conf \
+    device/asus/Z00A/nfc/ze551ml_tweccclm_libnfc-brcm.conf:system/etc/ze551ml_tweccclm_libnfc-brcm.conf \
+    device/asus/Z00A/nfc/ze551ml_tweccclm_libnfc-brcm-20795a20.conf:system/etc/ze551ml_tweccclm_libnfc-brcm-20795a20.conf \
+    device/asus/Z00A/nfc/ze551ml_tweccplm_libnfc-brcm.conf:system/etc/ze551ml_tweccplm_libnfc-brcm.conf \
+    device/asus/Z00A/nfc/ze551ml_tweccplm_libnfc-brcm-20795a20.conf:system/etc/ze551ml_tweccplm_libnfc-brcm-20795a20.conf \
+    device/asus/Z00A/nfc/zx551ml_gold_libnfc-brcm.conf:system/etc/zx551ml_gold_libnfc-brcm.conf \
+    device/asus/Z00A/nfc/zx551ml_gold_libnfc-brcm-20795a20.conf:system/etc/zx551ml_gold_libnfc-brcm-20795a20.conf
 
 # NFC packages
 PRODUCT_PACKAGES += \
