@@ -13,3 +13,5 @@ etc/firmware/M10MO_fw.bin
 # NFC
 vendor/firmware/bcm2079x-a2_firmware.ncd
 
+# Sensors
+etc/firmware/psh.bin
