@@ -54,7 +54,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     nfc_nci.bcm2079x.default \
     NfcNci \
-    Tag
+    Tag \
+    android.hardware.nfc@1.0-impl-bcm \
+    android.hardware.nfc@1.0-service
 
 $(call inherit-product-if-exists, vendor/asus/Z00A/Z00A-vendor.mk)
 
